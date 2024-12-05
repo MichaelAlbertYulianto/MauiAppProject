@@ -15,6 +15,12 @@
         Route="main" />
 
     <ShellContent
+        Title="List Categories"
+        Icon="{StaticResource IconMeta}"
+        ContentTemplate="{DataTemplate pages:CourseCategoryPage}"
+        Route="Categories" />
+
+    <ShellContent
         Title="Projects"
         Icon="{StaticResource IconProjects}"
         ContentTemplate="{DataTemplate pages:ProjectListPage}"
